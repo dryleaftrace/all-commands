@@ -43,6 +43,18 @@
     color: #00ff88;
     text-shadow: 0 0 8px rgba(0,255,136,0.5);
   }
+  .tipjar {
+    margin-left: auto;
+    align-self: center;
+    color: #556655;
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+  .tipjar:hover { color: #00ff88; }
   .frame-wrap {
     flex: 1;
     position: relative;
@@ -67,6 +79,7 @@
   <button data-target="frame-linux" onclick="showTab('frame-linux', this)">Linux</button>
   <button data-target="frame-mac" onclick="showTab('frame-mac', this)">Mac</button>
   <button data-target="frame-packet" onclick="showTab('frame-packet', this)">Packet Flags</button>
+  <a class="tipjar" href="https://www.buymeacoffee.com/dryleaftrace" target="_blank" rel="noopener">☕ tip jar</a>
 </nav>
 
 <div class="frame-wrap">
